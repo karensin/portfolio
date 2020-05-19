@@ -1,15 +1,15 @@
 {
-  "main.css": "/portfolio2019/static/css/main.854d70bb.chunk.css",
-  "main.js": "/portfolio2019/static/js/main.b505b3da.chunk.js",
-  "main.js.map": "/portfolio2019/static/js/main.b505b3da.chunk.js.map",
-  "static/css/1.076d6868.chunk.css": "/portfolio2019/static/css/1.076d6868.chunk.css",
-  "static/js/1.77a22bf5.chunk.js": "/portfolio2019/static/js/1.77a22bf5.chunk.js",
-  "static/js/1.77a22bf5.chunk.js.map": "/portfolio2019/static/js/1.77a22bf5.chunk.js.map",
-  "runtime~main.js": "/portfolio2019/static/js/runtime~main.12f7caad.js",
-  "runtime~main.js.map": "/portfolio2019/static/js/runtime~main.12f7caad.js.map",
-  "static/css/main.854d70bb.chunk.css.map": "/portfolio2019/static/css/main.854d70bb.chunk.css.map",
-  "static/css/1.076d6868.chunk.css.map": "/portfolio2019/static/css/1.076d6868.chunk.css.map",
-  "index.html": "/portfolio2019/index.html",
-  "precache-manifest.d8d13a237c14a2f2ac135fc54cae58b9.js": "/portfolio2019/precache-manifest.d8d13a237c14a2f2ac135fc54cae58b9.js",
-  "service-worker.js": "/portfolio2019/service-worker.js"
+  "main.css": "/portfolio/static/css/main.854d70bb.chunk.css",
+  "main.js": "/portfolio/static/js/main.e4c72009.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.e4c72009.chunk.js.map",
+  "static/css/1.076d6868.chunk.css": "/portfolio/static/css/1.076d6868.chunk.css",
+  "static/js/1.77a22bf5.chunk.js": "/portfolio/static/js/1.77a22bf5.chunk.js",
+  "static/js/1.77a22bf5.chunk.js.map": "/portfolio/static/js/1.77a22bf5.chunk.js.map",
+  "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
+  "runtime~main.js.map": "/portfolio/static/js/runtime~main.ee2a1003.js.map",
+  "static/css/main.854d70bb.chunk.css.map": "/portfolio/static/css/main.854d70bb.chunk.css.map",
+  "static/css/1.076d6868.chunk.css.map": "/portfolio/static/css/1.076d6868.chunk.css.map",
+  "index.html": "/portfolio/index.html",
+  "precache-manifest.31c1f8dd72c077b52154dee778f4d888.js": "/portfolio/precache-manifest.31c1f8dd72c077b52154dee778f4d888.js",
+  "service-worker.js": "/portfolio/service-worker.js"
 }
