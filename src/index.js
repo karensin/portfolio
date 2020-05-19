@@ -7,7 +7,7 @@ import * as serviceWorker from './serviceWorker';
 import { Route, Switch } from 'react-router-dom';
 
 ReactDOM.render(
-  <BrowserRouter basename="/portfolio">
+  <BrowserRouter basename="/portfolio/">
     <Switch>
       <Route exact path="/" component={App} />
     </Switch>
