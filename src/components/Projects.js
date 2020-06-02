@@ -19,6 +19,14 @@ class Projects extends Component {
           <Container fluid={true}>
             <Row className='projectsBox'>
               <Col>
+                <Square imgSrc={process.env.PUBLIC_URL + "/images/projectCrateless2.png"}
+                  linkSrc="https://karensin.github.io/project_r2019" projName="Project Crateless" gitLink="https://github.com/karensin/project_r2019">
+                  <p className='description'>
+                    A <strong>responsive pet adoption website</strong> built using <strong>React</strong> and <strong>React Redux </strong>that prioritizes in featuring animals based on their time spent in the shelter. Pet data is collected from <strong>PetFinder API</strong> and displayed on the site with contact information and varies tags based on the animal’s needs and characteristics.
+                  </p>
+                </Square>
+              </Col>
+              <Col>
                 <Square imgSrc={process.env.PUBLIC_URL + "/images/WeatherApp.png"}
                   linkSrc="https://karensin.github.io/WeatherForecast/" projName="Weather Forecast" gitLink="https://github.com/karensin/WeatherForecast">
                   <p className='description'>
@@ -44,14 +52,14 @@ class Projects extends Component {
                   </p>
                 </Square>
               </Col>
-              <Col>
+              {/* <Col>
                 <Square imgSrc={process.env.PUBLIC_URL + "/images/todolist.jpeg"}
                   linkSrc="https://karensin.github.io/todoList/" projName="To-Do List" gitLink="https://github.com/karensin/todoList" >
                   <p className='description'>
                     A <strong>To-Do List </strong> made using <strong>React</strong>. Keep track of your tasks, manage them online, and stay organized!
                   </p>
                 </Square>
-              </Col>
+              </Col> */}
               <Col>
                 <Square imgSrc={process.env.PUBLIC_URL + "/images/MeeseeksBox.jpg"}
                   linkSrc="https://www.facebook.com/meeseeksBox2019" projName="Meeseeks Bot" gitLink="https://github.com/karensin/MeeseeksBox" >
