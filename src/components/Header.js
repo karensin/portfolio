@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
 
-// TODO fix onscroll bullshit, make bg attached to page 
-// https://stackoverflow.com/questions/21786272/css-background-size-cover-background-attachment-fixed-clipping-background-im
+
 class Header extends Component {
   constructor(props) {
     super(props);
@@ -19,7 +18,7 @@ class Header extends Component {
       y: window.pageYOffset ? document.documentElement.scrollTop : document.body.scrollTop
     };
     this.setState({ scrollTop: scroll.y });
-    console.log(scroll.y);
+
   }
 
   componentDidMount() {
@@ -29,7 +28,7 @@ class Header extends Component {
   render() {
     return (
       <header className={this.props.className + " intro-header"} ref={this.headerRef}>
-        <div className="headerBG" style={{
+        {/* <div className="headerBG" style={{
           background: `url("${process.env.PUBLIC_URL + '/images/header.jpeg'}") no-repeat scroll center / cover`,
           // backgroundColor: 'rgba(102, 129, 147, 0.4)',
           // backgroundBlendMode: 'multiply'
@@ -38,7 +37,7 @@ class Header extends Component {
           // backgroundPositionY: this.state.scrollTop
         }} >
 
-        </div>
+        </div> */}
         <div className="headerShadow"></div>
         {this.props.children}
       </header >

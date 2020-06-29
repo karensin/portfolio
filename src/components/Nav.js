@@ -13,8 +13,11 @@ class Nav extends Component {
           <div className="col float-right"><Link to="/#about">About Me</Link></div>
           <div className="col float-right"><Link to="/#projects">Projects</Link></div>
           <div className="col float-right"><Link to="/#home">Home</Link> </div>
+          <div className="col float-left">  <img src="./images/favicon.png" className="d-inline-block align-top"
+            alt="React Bootstrap logo"
+          /> </div>
         </div>
-      </nav>
+      </nav >
     );
   }
 }

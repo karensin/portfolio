@@ -5,6 +5,7 @@ import Contacts from './components/Contacts.js';
 import Home from './components/Home.js';
 import Bubbles from './components/Bubbles.js';
 import Nav from './components/Nav.js';
+import Timeline from './components/Timeline.js';
 
 
 const bubbleMoveSpeed = 2.5;
@@ -91,13 +92,17 @@ class App extends Component {
     });
     return (
       <div className="App" onMouseMove={this._onMouseMove.bind(this)}>
+
         <div className="bob">
           {bubbles}
         </div>
+
+
         <Nav />
         <Home />
+        <Timeline />
         <Contacts />
-      </div>
+      </div >
     );
   }
 }
