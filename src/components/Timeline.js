@@ -1,78 +1,71 @@
 import React, { Component, useEffect, useState } from 'react';
+import { Container } from 'react-bootstrap';
 
 const timelineData = [
     {
-        text: 'Started working on the app-ideas repository',
-        date: 'February 25 2019',
+        role: ' Software Developer',
+        accomplishment: 'Exploring Opportunities in Frontend Software Engineering',
+        date: 'Present',
         category: {
-            tag: 'app-ideas',
-            color: '#FFDB14'
+            tag: 'Career Goal',
+            color: 'darkslategrey'
         },
         link: {
             url: 'https://github.com/florinpop17/app-ideas',
-            text: 'Check it out on GitHub'
+            text: 'Contact me'
         }
     },
     {
-        text: 'Started the Weekly Coding Challenge program',
-        date: 'March 04 2019',
+        role: 'GIS Data Analyst ',
+        accomplishment: 'Enhanced data accuracy on Apple Maps by leading the data aggregation across multiple US map data sources: satellite imagery, apple street view photos, and user location data.',
+        date: 'May 2018',
         category: {
-            tag: 'blog',
-            color: '#e17b77'
-        },
-        link: {
-            url: 'https://florin-pop/blog/2019/03/weekly-coding-challenge/',
-            text: 'Check it out here'
-        }
-    },
-    {
-        text: 'Got 1.000 followers on Twitter',
-        date: 'March 07 2019',
-        category: {
-            tag: 'twitter',
+            tag: 'Apple Inc',
             color: '#1DA1F2'
         },
-        link: {
-            url: 'https://twitter.com/florinpop1705',
-            text: 'See profile'
-        }
+
     },
     {
-        text:
-            'I published my first article in the FreeCodeCamp Medium Publication',
-        date: 'March 18 2019',
+        role: 'Research Associate II',
+        accomplishment:
+            'Promoted to Research Associate II and studied gene expression on Autism related genes',
+        date: 'Sept 2017',
         category: {
-            tag: 'medium',
+            tag: 'UCSF',
             color: '#018f69'
         },
-        link: {
-            url:
-                'https://medium.freecodecamp.org/how-to-build-a-double-slider-sign-in-and-sign-up-form-6a5d03612a34',
-            text: 'Check it out here'
-        }
     },
     {
-        text: 'Over 12.000 views in a single day on my Medium posts',
-        date: 'April 05 2019',
+        role: 'Lab Technician III ',
+        accomplishment: 'Lab Technician III at the Department of Psychiatry ',
+        date: 'April 2016',
         category: {
-            tag: 'medium',
+            tag: 'UCSF',
             color: '#018f69'
         },
-        link: {
-            url: 'https://medium.com/@popflorin1705',
-            text: 'See profile'
-        }
+
+    },
+    {
+        role: "Undergraduate",
+        accomplishment: 'Obtained the Bachelor of Science Degree in Animal Science',
+        date: 'May 2016',
+        category: {
+            tag: 'UC Davis',
+            color: '#018f69'
+        },
+
     }
+
 ]
 
 const TimelineItem = ({ data }) => (
     <div className="timeline-item">
         <div className="timeline-item-content">
             <span className="tag" style={{ background: data.category.color }}>
-                {data.category.tag}
+                {data.category.tag} ||  {data.role}
             </span>
             <time>{data.date}</time>
-            <p>{data.text}</p>
+            <p>{data.accomplishment}</p>
             {data.link && (
                 <a
                     href={data.link.url}
@@ -89,11 +82,14 @@ const TimelineItem = ({ data }) => (
 
 const Timeline = () =>
     timelineData.length > 0 && (
-        <div className="timeline-container">
+        <div id='timeline' className="timeline-container" >
+
             {timelineData.map((data, idx) => (
                 <TimelineItem data={data} key={idx} />
             ))}
         </div>
+
+
     );
 
 export default Timeline;

@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import '../App.css';
 
-
 class About extends Component {
   render() {
     return (
-      <div className='aboutmeWrapper homePageSection' id="about">
-        <section className='aboutmeSection'>
+      <div className='aboutmeWrapper homePageSection aboutmeBg' id="about"       >
+
+        <section className='aboutmeSection' >
           <h2 className="pageTitle">About Me</h2>
-          <div className="aboutProfilePicWrapper">
+          <div className="aboutProfilePicWrapper" >
             <img className="aboutProfilePic" alt="profile" src={process.env.PUBLIC_URL + "/images/karen.jpeg"} />
           </div>
           <h3 className='titleName'>Experience... </h3>
@@ -27,7 +27,7 @@ class About extends Component {
           </p>
         </section>
 
-      </div>
+      </div >
     );
   }
 }

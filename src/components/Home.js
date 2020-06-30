@@ -3,7 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
 import Projects from './Projects.js';
 import Header from './Header.js';
-import About from './About.js';
 import { HashLink as Link } from 'react-router-hash-link';
 
 class Home extends Component {
@@ -37,7 +36,7 @@ class Home extends Component {
             </div>
           </div>
           <Projects />
-          <About />
+
           {/* <Resume /> */}
         </div>
       </div >

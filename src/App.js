@@ -5,8 +5,8 @@ import Contacts from './components/Contacts.js';
 import Home from './components/Home.js';
 import Bubbles from './components/Bubbles.js';
 import Nav from './components/Nav.js';
-import Timeline from './components/Timeline.js';
-
+import Roadmap from './components/Roadmap.js';
+import About from './components/About.js';
 
 const bubbleMoveSpeed = 2.5;
 const minBubbleTime = 50;
@@ -96,12 +96,12 @@ class App extends Component {
         <div className="bob">
           {bubbles}
         </div>
-
-
         <Nav />
         <Home />
-        <Timeline />
+        <Roadmap />
+        <About />
         <Contacts />
+
       </div >
     );
   }
