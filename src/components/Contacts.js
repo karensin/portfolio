@@ -13,15 +13,21 @@ class Contacts extends Component {
             <div class="col-md-8 col-sm-6 col-xs-12">
               <p class="copyright-text">
                 Copyright &copy; 2020 All Rights Reserved by Karen Sin
-                  <a href="#"> </a>.
             </p>
             </div>
             <div class="col-md-4 col-sm-6 col-xs-12">
               <ul class="social-icons">
-                <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-                <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li> <a target="_blank" rel="noopener noreferrer" href="mailto: kkwsin@gmail.com"> <i className="fas  fa-envelope"></i>
+                </a></li>
+                <li><a class="linkedin" href='https://www.linkedin.com/in/karensin94/'><i className="fa fa-linkedin"></i></a></li>
+                <li><a target="_blank" rel="noopener noreferrer" href='https://github.com/karensin'>
+                  <i className="fab fa-github"></i> </a>
+                </li>
+                <li>
+                  <a target="_blank" rel="noopener noreferrer" href='https://angel.co/karen-kaweng-sin'>
+                    <i className="fa fa-angellist"></i>
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
@@ -33,3 +39,8 @@ class Contacts extends Component {
 }
 
 export default Contacts;
+
+
+
+
+
