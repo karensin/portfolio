@@ -5,7 +5,7 @@ import Timeline from './Timeline.js';
 
 function Roadmap() {
     return (
-        <div >
+        <div className='homePageSection'>
             <div className='pageTitle roadMap'> My Road Map to Success </div>
 
             <p className=' roadMap p' >
