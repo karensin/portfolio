@@ -77,7 +77,7 @@ class Projects extends Component {
                   </p>
                 </Square>
               </Col>
-              <Col>
+              {/* <Col>
                 <Square imgSrc={process.env.PUBLIC_URL + "/images/Chatty.png"}
                   linkSrc="https://chat-ty.herokuapp.com/" projName="Chatty" gitLink="https://github.com/karensin/Chat-ty" >
                   <p className='description'>
@@ -93,7 +93,7 @@ class Projects extends Component {
                     A <strong>HTML5 music player</strong> made using <strong>React</strong> and <strong>React Router</strong> to create a Single-Page Application to handle client-side page transitions.
                   </p>
                 </Square>
-              </Col>
+              </Col> */}
             </Row>
           </Container>
         </section>

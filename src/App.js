@@ -4,7 +4,7 @@ import './App.css';
 import Contacts from './components/Contacts.js';
 import Home from './components/Home.js';
 import Bubbles from './components/Bubbles.js';
-import Nav from './components/Nav.js';
+import Nava from './components/Nav.js';
 import Roadmap from './components/Roadmap.js';
 import About from './components/About.js';
 
@@ -96,7 +96,7 @@ class App extends Component {
         <div className="bob">
           {bubbles}
         </div>
-        <Nav />
+        <Nava />
         <Home />
         <Roadmap />
         <About />
