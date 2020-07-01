@@ -28,9 +28,7 @@ class Home extends Component {
         </Header>
         <div className="homeContent">
           <div className="projBGBG" >
-            {/* style={{
-              background: `url("${process.env.PUBLIC_URL + '/images/projects_background.jpg'}") no-repeat center / cover`
-            } */}
+
             <div className="projBGShadow">
               <img alt="background" className="projBG" src={process.env.PUBLIC_URL + '/images/projects_background.jpg'}></img>
             </div>

@@ -10,7 +10,7 @@ class Nava extends Component {
       <Navbar className="nav"  >
 
         <Navbar.Brand className="row float-left">
-          <img src="./images/favicon.png" className="d-inline-block align-top"
+          <img src={process.env.PUBLIC_URL + "./images/favicon.png"} className="d-inline-block align-top"
             alt="React Bootstrap logo"
           />
         </Navbar.Brand>
@@ -35,16 +35,7 @@ class Nava extends Component {
         </Navbar.Collapse>
 
       </Navbar>
-      // <nav className="nav">
-      //   <div className="row">
-      //     {/* <div className="col float-right"><Link to="/#contacts">Contact</Link></div> */}
-      //     {/* <div className="col float-right"><Link to="/#resume" >Resume</Link></div> */}
-      //     <div className="col float-right"><Link to="/#about">About Me</Link></div>
-      //     <div className="col float-right"><Link to="/#projects">Projects</Link></div>
-      //     <div className="col float-right"><Link to="/#home">Home</Link> </div>
 
-      //   </div>
-      // </nav >
     );
   }
 }
