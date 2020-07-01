@@ -5,10 +5,11 @@ class About extends Component {
   render() {
     return (
       <div className='aboutmeWrapper homePageSection aboutmeBg' id="about" style={{
-        background: `url("${process.env.PUBLIC_URL + "/images//whale1.png"}") no-repeat center / cover`
+        background: `url("${process.env.PUBLIC_URL + "/images//whale1.png"}") no-repeat fixed center top `,
+        backgroundSize: '1000px 900px',
+        backgroundAttachment: ' local, scroll'
 
       }} >
-
         <section className='aboutmeSection' >
           <h2 className="pageTitle">About Me</h2>
           <div className="aboutProfilePicWrapper" >

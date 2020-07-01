@@ -82,7 +82,9 @@ const TimelineItem = ({ data }) => (
 
 const Timeline = () =>
     timelineData.length > 0 && (
-        <div id='timeline' className="timeline-container" >
+        <div id='timeline' className="timeline-container" style={{
+            background: `url("${process.env.PUBLIC_URL + "/images/whaleflip.png"}") no-repeat  fixed`
+        }}>
 
             {timelineData.map((data, idx) => (
                 <TimelineItem data={data} key={idx} />
@@ -93,3 +95,4 @@ const Timeline = () =>
     );
 
 export default Timeline;
+

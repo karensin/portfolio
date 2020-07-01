@@ -10,7 +10,7 @@ class Nava extends Component {
       <Navbar className="nav"  >
 
         <Navbar.Brand className="row float-left">
-          <img src={process.env.PUBLIC_URL + "./images/favicon.png"} className="d-inline-block align-top"
+          <img src="./images/favicon.png" className="d-inline-block align-top"
             alt="React Bootstrap logo"
           />
         </Navbar.Brand>
