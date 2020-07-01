@@ -1073,14 +1073,11 @@ button.navbar-collapse.show {
     padding-left: 8px;
     padding-right: 8px;
 }
-ul.social-icons{
-       max-width: 400px;
-      min-width: 400px;
-  }
+
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
-    float: right;
+    /* float: right; */
     display: block;
   }
 }
@@ -1119,4 +1116,30 @@ h2.pageTitle{
 p.copyright-text{
   margin-left: 35px;
 }
+ul.social-icons{
+    max-width: 400px;
+    min-width: 400px;
+  }
 }
+
+@media screen and (max-width: 900px) {
+ 
+/* ul.social-icons{
+    float: left;
+    max-width: 400px;
+    min-width: 400px;
+  } */
+}
+@media (max-width: 900px){
+ 
+.site-footer [class^=col-] {
+    margin-bottom: 30px;
+}
+}
+@media (min-width: 576px){
+.col-sm-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+}
+ 
