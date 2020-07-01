@@ -117,17 +117,16 @@ h2, h3, h4, h5, h6, h7 {
   */
  
 .home-header .headerShadow {
-
   /* min-width: 1000vh;
   max-width: 1000vh; */
   width: 100%;
   position: absolute;
   display: block;
   background-color: rgba(53, 160, 202, 0.986);
-  background-image: url("/images/header.png") ;
+  /* background-image: url("/images/header.png") ; */
   /* contain: no-repeat fixed center; */
   box-shadow: 0 0 80px 20px rgb(238, 238, 240) inset;
-  background-size: 1300px 950px;;
+  /* background-size: 1300px 950px;; */
   opacity: 0.5;
   text-shadow: 0 0 25px rgb(19, 66, 119)
   /* backgroun: linear-gradient(0deg, rgba(24, 49, 72, 1) 0%, rgba(24, 49, 72, 0.95) 5%, rgba(24, 49, 72, 0.7) 15%, rgba(24, 49, 72, 0.2) 30%, rgba(24, 49, 72, 0) 50%); */

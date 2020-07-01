@@ -29,7 +29,10 @@ class Header extends Component {
     return (
       <header className={this.props.className + " intro-header"} ref={this.headerRef}>
 
-        <div className="headerShadow"></div>
+        <div className="headerShadow" style={{
+          background: `url("${process.env.PUBLIC_URL + '/images/header.png'}")  repeat center `,
+          backgroundSize: '1300px 950px'
+        }}></div>
         {this.props.children}
       </header >
     );
