@@ -92,7 +92,6 @@ class App extends Component {
     });
     return (
       <div className="App" onMouseMove={this._onMouseMove.bind(this)}>
-
         <div className="bob">
           {bubbles}
         </div>

@@ -48,7 +48,7 @@ const timelineData = [
     {
         role: "Undergraduate",
         accomplishment: 'Obtained the Bachelor of Science Degree in Animal Science',
-        date: 'May 2016',
+        date: 'June 2017',
         category: {
             tag: 'UC Davis',
             color: '#018f69'

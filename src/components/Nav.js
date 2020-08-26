@@ -8,7 +8,6 @@ class Nava extends Component {
   render() {
     return (
       <Navbar className="nav"  >
-
         <Navbar.Brand className="row float-left">
           <img src="./images/favicon.png" className="d-inline-block align-top"
             alt="React Bootstrap logo"
@@ -33,7 +32,6 @@ class Nava extends Component {
 
           </Nav>
         </Navbar.Collapse>
-
       </Navbar>
 
     );
