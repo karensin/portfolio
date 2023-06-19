@@ -17,8 +17,8 @@ class Contacts extends Component {
             <div className="col-md-8 col-sm-6 col-xs-12">
 
               <p className="copyright-text">
-                Copyright &copy; 2020 All Rights Reserved by Karen Sin
-            </p>
+                Copyright &copy; 2023 All Rights Reserved by Karen Sin
+              </p>
             </div>
             <div className="col-md-4 col-sm-6 col-xs-12">
               <ul className="social-icons">

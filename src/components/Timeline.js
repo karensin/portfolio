@@ -3,22 +3,28 @@ import { Container } from 'react-bootstrap';
 
 const timelineData = [
     {
-        role: ' Software Developer',
-        accomplishment: 'Exploring Opportunities in Frontend Software Engineering',
-        date: 'Present',
+        role: ' Software Developer II',
+        accomplishment: 'Implemented new frontend features (third-party notification feature in main product, custom branding in AppCenter, Inbox and workflow builder for App Procurement Hub) to improve overall user experience using Vue and Vuex.',
+        date: 'Oct 2021-Present',
         category: {
-            tag: 'Career Goal',
+            tag: 'Productiv',
             color: 'darkslategrey'
         },
-        link: {
-            url: 'https://github.com/florinpop17/app-ideas',
-            text: 'Contact me'
-        }
     },
     {
-        role: 'GIS Data Analyst ',
+        role: 'Software Developer',
+        accomplishment: 'Lead frontend project developer on building the rebranded Flair airlines website and mobile apps with improved user experience and additional enhancement features.',
+        date: 'Oct 2020 – Sept 2021',
+        category: {
+            tag: '777 Partners',
+            color: 'darkslategrey'
+        },
+
+    },
+    {
+        role: 'GIS Data Analyst',
         accomplishment: 'Enhanced data accuracy on Apple Maps by leading the data aggregation across multiple US map data sources: satellite imagery, apple street view photos, and user location data.',
-        date: 'May 2018',
+        date: 'May 2018 – Nov 2019',
         category: {
             tag: 'Apple Inc',
             color: '#1DA1F2'
@@ -64,7 +70,7 @@ const TimelineItem = ({ data }) => (
             <span className="tag" style={{ background: data.category.color }}>
                 {data.category.tag} ||  {data.role}
             </span>
-            <time>{data.date}</time>
+            <div class="pt-3"><time>{data.date}</time></div>
             <p>{data.accomplishment}</p>
             {data.link && (
                 <a
@@ -85,7 +91,6 @@ const Timeline = () =>
         <div id='timeline' className="timeline-container" style={{
             background: `url("${process.env.PUBLIC_URL + "/images/whaleflip.png"}") no-repeat  fixed`
         }}>
-
             {timelineData.map((data, idx) => (
                 <TimelineItem data={data} key={idx} />
             ))}
