@@ -5,7 +5,10 @@ import Projects from './Projects.js';
 import Header from './Header.js';
 import { HashLink as Link } from 'react-router-hash-link';
 
+
 class Home extends Component {
+
+
   render() {
     return (
       <div className="home" id="home" >
@@ -19,7 +22,7 @@ class Home extends Component {
             <div className="col">
               <div className="title">
                 <h1>KAREN SIN</h1>
-                <h4>Developer | Web Designer | Data Analyst</h4>
+                <h4>Software Engineer | Web Designer | Data Analyst</h4>
                 <Link to="/#projects" className="btn collab-btn"><i className=""></i> Learn more about what I do</Link>
               </div>
             </div>

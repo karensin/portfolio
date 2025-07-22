@@ -34,14 +34,7 @@ class Projects extends Component {
                   </p>
                 </Square>
               </Col>
-              <Col>
-                <Square imgSrc={process.env.PUBLIC_URL + "/images/potat.png"}
-                  linkSrc="https://superpotato-webapp.herokuapp.com/" projName="Superpotato" gitLink="https://github.com/karensin/AntisocialNetworkFrontend">
-                  <p className='description'>
-                    A <strong>responsive single page app</strong> made using <strong>React</strong> that allows potential participants to sign up for early access of Superpotato - your <strong>personal AI assistant</strong> that keeps track of all your relationships and notifies you when it seems like you’re about to lose touch with family, friends, or business associates.
-                  </p>
-                </Square>
-              </Col>
+
               <Col>
                 <Square imgSrc={process.env.PUBLIC_URL + "/images/toeWars.png"}
                   linkSrc="https://karensin.github.io/toeWars/" projName="Tic-Tac-Toe Wars" gitLink="https://github.com/karensin/toeWars">
@@ -68,15 +61,7 @@ class Projects extends Component {
                   </p>
                 </Square>
               </Col>
-              <Col>
-                <Square imgSrc={process.env.PUBLIC_URL + "/images/bloccit.png"}
-                  linkSrc="https://karensin-bloccit.herokuapp.com/" projName="Bloccit" gitLink="https://github.com/karensin/bloccit" >
-                  <p className='description'>
-                    An <strong>online content aggregator</strong> and discussion community built with <strong>ExpressJS</strong> and <strong>Model-View-Controller (MVC)</strong>. Bloccit uses <strong>ExpressJS Middleware</strong> to perform authentication and validation which allows users to sign up,
-                    sign in and create topics, posts, comments, votes and more.
-                  </p>
-                </Square>
-              </Col>
+
               {/* <Col>
                 <Square imgSrc={process.env.PUBLIC_URL + "/images/Chatty.png"}
                   linkSrc="https://chat-ty.herokuapp.com/" projName="Chatty" gitLink="https://github.com/karensin/Chat-ty" >
