@@ -4,8 +4,8 @@ import { Container } from 'react-bootstrap';
 const timelineData = [
     {
         role: ' Software Developer II',
-        accomplishment: 'Implemented new frontend features (third-party notification feature in main product, custom branding in AppCenter, Inbox and workflow builder for App Procurement Hub) to improve overall user experience using Vue and Vuex.',
-        date: 'Oct 2021-Present',
+        accomplishment: 'Led the design and implementation of scalable frontend features including Surveys, AppCenter white-labeling, and a workflow builder for the App Procurement Hub. Partnered with product, design, and backend teams to deliver solutions that enhanced procurement efficiency and user engagement. Utilized Vue.js, Vuex, and modular component architecture to ensure performance, maintainability, and long-term scalability.',
+        date: 'Oct 2021 - April 2025',
         category: {
             tag: 'Productiv',
             color: 'darkslategrey'

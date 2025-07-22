@@ -9,9 +9,7 @@ class Nava extends Component {
     return (
       <Navbar className="nav"  >
         <Navbar.Brand className="row float-left">
-          <img src="./images/favicon.png" className="d-inline-block align-top"
-            alt="React Bootstrap logo"
-          />
+
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse id="responsive-navbar-nav">
