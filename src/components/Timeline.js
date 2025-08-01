@@ -70,7 +70,7 @@ const TimelineItem = ({ data }) => (
             <span className="tag" style={{ background: data.category.color }}>
                 {data.category.tag} ||  {data.role}
             </span>
-            <div class="pt-3"><time>{data.date}</time></div>
+            <div className="pt-3"><time>{data.date}</time></div>
             <p>{data.accomplishment}</p>
             {data.link && (
                 <a

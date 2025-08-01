@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Dimensions from 'react-dimensions';
 import './Projects.css';
 
 
@@ -39,5 +38,5 @@ class Square extends Component {
   }
 }
 
-export default Dimensions()(Square);
+export default Square
 
