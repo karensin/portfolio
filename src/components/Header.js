@@ -30,8 +30,7 @@ class Header extends Component {
       <header className={this.props.className + " intro-header"} ref={this.headerRef}>
 
         <div className="headerShadow" style={{
-          background: `url("${process.env.PUBLIC_URL + '/images/header.png'}")  no-repeat center `,
-          backgroundSize: '1300px 950px'
+          backgroundColor: this.state.scrollTop > 100 ? 'rgba(0, 0, 0, 0.5)' : 'transparent',
         }}></div>
         {this.props.children}
       </header >

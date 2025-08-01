@@ -18,12 +18,11 @@ class Home extends Component {
             backgroundSize: '1300px 950px'
 
           }}  > */}
-          <div className="row h-100 align-items-center">
+          <div className="row h-100 align-items-center p-5">
             <div className="col">
               <div className="title">
                 <h1>KAREN SIN</h1>
-                <h4>Software Engineer | Web Designer | Data Analyst</h4>
-                <Link to="/#projects" className="btn collab-btn"><i className=""></i> Learn more about what I do</Link>
+                <h4>Frontend Engineer · UI Developer · Data Analyst</h4>
               </div>
             </div>
           </div>
